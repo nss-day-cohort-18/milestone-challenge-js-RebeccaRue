@@ -1,0 +1,57 @@
+body {
+  background-color: #e8cb2c;
+  background-image: url(http://cdn.wallpapersafari.com/26/77/iEMAZ0.jpg);
+  padding-top: 0px;
+  padding-right: 30%;
+  padding-bottom: 50px;
+  padding-left: 30%;
+  margin-top: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.realBody {
+    background-color: grey;
+    
+    padding-top: 35px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px; 
+    margin: 0 auto;
+    color: white;
+    /*border: 30px;
+    border-color: #233a5e; */
+  
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    max-height: 100%;
+    /*top: 0; */
+
+  }
+
+/*.container {
+  background-color: #dbd0c6;
+  color: black;
+  padding: 50px;
+
+} */
+
+/*.container h1 {
+  font-size: 3em;
+  text-align: center;
+}
+*/
+
+
+.column {
+  width:50%;
+  float:left;
+}
+
+.column img {
+  width:100%;
+  height:auto;
+}
+

@@ -1,5 +1,6 @@
 console.log("no")
 
+
 //variables
 var gnarlyRoot = {size: 0, character: 0}
 var growButton = document.getElementById("growYourTree");
@@ -26,6 +27,7 @@ function tree(gnarlyRoot) {
 			numChar += 2;
 			
 			console.log(gnarlyGo);
+
 		}
 	} else {
 		alert('Please enter a value in both fields!')
@@ -34,6 +36,7 @@ function tree(gnarlyRoot) {
 
 //grow gnarly tree at button push
 document.getElementById("growButton").addEventListener('click', tree);
+
 
 document.getElementById('characterInput').addEventListener('keyup', function(e){
 	if (e.which === 13) {

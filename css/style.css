@@ -1,0 +1,106 @@
+//*body {
+	margin: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+}*//
+
+#spacer {
+	width: 100%;
+	height: 95px;
+
+}
+#nav {
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 2px;
+	display: flex;
+	background-color: grey;
+}
+
+
+
+
+#fixedbar ul {
+	position: fixed;
+	margin: 0;
+	padding: 2px;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+	background-color: grey;
+	width: contain;
+	height: 60px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font: sans-serif;
+	font-weight: bold;
+	font-size: relative; 
+	
+}
+
+li {
+	float: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	margin: 0;
+	padding: 20px 50px;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}
+
+#fixednav li {
+	display: inline-block;
+	
+
+}
+#fixednav .active {
+    background-color: white;
+    color: grey;
+}
+
+/* Change the link color on hover */
+#fixednav li a:hover {
+    background-color: white;
+    color: grey;
+}
+
+#divFooter {
+	position: fixed;
+	margin-left: inherit;
+	margin-right: inherit;
+	margin-top: 0;
+	margin-bottom: inherit;
+
+	padding-left: inherit;
+	padding-right: inherit;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+	flex: flex-shrink;
+	justify-content: center;
+	overflow: hidden;
+	width: inherit;
+	height: auto;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	font: sans-serif;
+	font-weight: bold;
+	font-size: relative; 
+
+}
+
+/*ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}*/
