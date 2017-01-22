@@ -9,8 +9,10 @@ function tree(gnarlyRoot) {
 	
 	var gnarlyHeight = document.getElementById('gnarlyHeight').value;
 	var charUse = document.getElementById('characterInput').value;
+	
 	var gnarlyRoot_size = gnarlyHeight;
 	var gnarlyRoot_char = charUse;
+	
 	var numChar = 1;
 	var numSpaces = gnarlyRoot_size -1;
 
@@ -19,17 +21,18 @@ function tree(gnarlyRoot) {
 			var spaces = ' '.repeat(numSpaces);
 			var character = gnarlyRoot_char.repeat(numChar);
 			var gnarlyGo = spaces + character;
+			
 			numSpaces -= 1;
 			numChar += 2;
+			
 			console.log(gnarlyGo);
 		}
 	} else {
-		alert('Please be sure to enter a value in both fields!')
+		alert('Please enter a value in both fields!')
 	}
 }
 
 //grow gnarly tree at button push
-//growButton.addEventListener('click', gnarly);
 document.getElementById("growButton").addEventListener('click', tree);
 
 document.getElementById('characterInput').addEventListener('keyup', function(e){
