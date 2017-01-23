@@ -4,12 +4,12 @@ console.log("no")
 //variables
 var gnarlyRoot = {size: 0, character: 0}
 var growButton = document.getElementById("growYourTree");
+var screen-xs = 767; //specific to navbar js
 
 //tree function to grow based on imputs
 function tree(gnarlyRoot) {
 	
-	var gnarlyHeight = document.getElementById('gnarlyHeight').value;
-	var charUse = document.getElementById('characterInput').value;
+	
 	
 	var gnarlyRoot_size = gnarlyHeight;
 	var gnarlyRoot_char = charUse;
@@ -30,7 +30,7 @@ function tree(gnarlyRoot) {
 
 		}
 	} else {
-		alert('Please enter a value in both fields!')
+		alert('Whoopsie! Please enter a single value in each field.')
 	}
 }
 
@@ -48,4 +48,31 @@ gnarlyHeight.addEventListener('keyup', function(e){
 	if (e.which === 13) {
 		tree();
 	}
+});
+var gnarlyHeight = document.getElementById('gnarlyHeight').value;
+var charUse = document.getElementById('characterInput').value;
+
+
+
+
+
+
+
+//navbar auto-fix based on window size
+
+
+if (window.innerWidth <= screen-xs) {
+  $(".navbar").addClass("navbar-static-top");
+} else {
+  $(".navbar").addClass("navbar-default");
+}
+
+$(window).resize(function() {
+  if (window.innerWidth <= screen-xs) {
+    $(".navbar").removeClass("navbar-default");
+    $(".navbar").addClass("navbar-static-top");
+  } else {
+    $(".navbar").removeClass("navbar-static-top");
+    $(".navbar").addClass("navbar-default");
+  }
 });
