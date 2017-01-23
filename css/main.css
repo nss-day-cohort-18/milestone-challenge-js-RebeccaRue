@@ -1,0 +1,174 @@
+body {
+  background-color: #e8cb2c;
+  background-image: url(http://cdn.wallpapersafari.com/26/77/iEMAZ0.jpg);
+  padding-top: 0px;
+  padding-right: 30%;
+  padding-bottom: 50px;
+  padding-left: 30%;
+  margin-top: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.realBody {
+    background-color: grey;
+    
+    text-shadow: 2px 1px #9ba4b2;
+    box-shadow: 2px 1px #9ba4b2;
+
+    padding-top: 10%;
+    padding-right: 30%;
+    padding-bottom: 10%;
+    padding-left: 30%; 
+    margin-top: 20%;
+    margin-bottom: 25%;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    /*border: 30px;
+    border-color: #233a5e; */
+  
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-height: 100%;
+    /*top: 0; */
+
+  }
+
+
+.spacer {
+  width: inherit;
+  height: 95px;
+
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 2px;
+  display: flex;
+  background-color: grey;
+}
+
+
+
+
+.navbar ul {
+  position: fixed;
+  margin: 0;
+  padding: 2px;
+  display: flex;
+
+  justify-content: space-between;
+  align-content: center;
+  /*overflow: hidden;*/
+  background-color: grey;
+  width: cover;
+  height: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+
+  font: sans-serif;
+  font-weight: bold;
+  font-size: relative; 
+  text-shadow: 2px 1px #9ba4b2;
+  box-shadow: 2px 1px #9ba4b2;
+}
+
+li {
+  float: center;
+  float: middle;
+}
+
+li a {
+  display: block;
+  color: white;
+  margin: auto;
+  padding: 20px 50px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  align-content: center;
+}
+
+#fixednav li {
+  display: inline-block;
+  align-content: center;
+
+}
+#fixednav .active {
+    background-color: white;
+    text-shadow: 2px 1px #e0c541;
+    color: grey;
+}
+
+/* Change the link color on hover */
+#fixednav li a:hover {
+    background-color: white;
+    text-shadow: 2px 1px #e0c541;
+    color: grey;
+}
+/*.universalfooter {
+  background-image: url(https://img0.etsystatic.com/110/0/9915261/il_340x270.994817778_agym.jpg);
+  width: 100%;
+  height: 100%;
+}
+*/
+
+/* #divFooter {
+  
+  
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-top: 0;
+  margin-bottom: inherit;
+
+  padding-left: inherit;
+  padding-right: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+  flex: flex-shrink;
+  justify-content: center;
+  overflow: hidden;
+  width: inherit;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-align: center;
+  font: sans-serif;
+  font-weight: bold;
+  font-size: relative; 
+
+
+} */
+
+/*ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}*/
+
+
+
+/*.container {
+  background-color: #dbd0c6;
+  color: black;
+  padding: 50px;
+
+} */
+
+/*.container h1 {
+  font-size: 3em;
+  text-align: center;
+}
+*/
+
+
+
